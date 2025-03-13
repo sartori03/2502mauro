@@ -8,28 +8,28 @@ int main() {
     
     if ( nota >= 9) {
         printf("A");
-        return 0;
-    }
+    } else {
     
     if (nota >= 8) {
         printf("B");
-        return 0;
-    }
+    } else {
     
     if (nota >= 7) {
         printf("C");
-        return 0;
-    }
+    } else {
     
     if (nota >= 6) {
         printf("D");
-        return 0;
-    }
+    } else {
     
     if (nota < 6) {
         printf("F");
-        return 0;
     }
-    
+    }
+    }
+    }
+    }
+
+        
     return 0;
 }
